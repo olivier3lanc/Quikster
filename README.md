@@ -9,7 +9,7 @@
 * [Examples](#extensions)
 
 
-# Quikster
+# Quikster
 
 A starter framework for [](//www.sass-lang.com)that brings useful functions and mixins to start your web project. [see a demo](http://codepen.io/olivier3lanc/pen/mRQRJv) or [get started](#get-started)
 
@@ -1303,7 +1303,7 @@ Simple CSS3 gradient `@include qtr-background-gradient($color1, $color2, $angle)
 
 List of all available Quikster functions.
 
-## `qtr-color($step, $color)`
+### `qtr-color($step, $color)`
 
 * **Description**: Returns a computed contrasted color. All arguments are optional.. See [automatic contrast](#automatic-contrast) section for [examples](#automatic-contrast)  
 * **Return value**: CSS value
@@ -1340,12 +1340,14 @@ Advanced examples:
 * `qtr-color(3,#fe3abc)` returns the 3/6 contrasted color from `#fe3abc`
 * `qtr-color(-3,#fe3abc)` returns the 3/6 accentuated contrast color from `#fe3abc`
 
-## `qtr-font-family($id)`
+
+### `qtr-font-family($id)`
 
 * **Description**: Returns the specified font family list from the `$qtr_font_families` map in user settings. See [font families](#font-families) section for [examples](#font-families).
 * **Return value**: CSS list
 
-## `qtr-font-size($size, $return_type)`
+
+### `qtr-font-size($size, $return_type)`
 
 * **Description**: Returns CSS font size value **with its font size unit** defined in parameters. All arguments are optional. See [font sizes](#font-sizes) section for [examples](#font-sizes)  
 * **Return value**: CSS value
@@ -1392,7 +1394,6 @@ Advanced examples:
     font-size: 13px;
 }
 ```
-
 
 
 ## Examples made with Quikster
